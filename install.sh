@@ -195,6 +195,8 @@ WRITE_PATH_TO_PROFILE=0
 if [[ $BATCH_INSTALL == 0 ]]; then
     if [ -f "$RC_FILE" ]; then
         echo "
+    fi
+fi
 
 . $PREFIX/bin/torch-activate" >> "$RC_FILE"
     echo "
